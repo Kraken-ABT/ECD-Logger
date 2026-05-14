@@ -34,7 +34,7 @@
 ## 🚀 Установка и запуск
 ### 1. Клонируйте репозитирий
 ```bash
-git clone https://github.com/yourusername/ecd-logger.git
+git clone https://github.com/Kraken-ABT/ecd-logger.git
 cd ecd-logger
 ```
 
