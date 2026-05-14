@@ -1,0 +1,56 @@
+# Общие настройки
+EL_DataBasePath = database/reports
+EL_Mode = 2
+EL_Target = Server Name
+EL_MaxReportsPerScan = 150
+
+# в диапозоне между 1 - 2 минут
+EL_Interval = 60/120
+
+EL_RequestDelay = 0.1
+EL_RequestTimeout = 10
+
+# Получение модулей/драйверов/процессов (0/1)
+EL_GetModules = 1
+EL_GetDrivers = 1
+EL_GetProcesses = 1
+EL_ShowStatsOnStart = 1
+
+# User-Agent
+EL_UseCustomUA = 1
+EL_RandomUA = 1
+
+# Логирование
+EL_LogLevel = INFO
+EL_LogConsoleOutput = 0
+EL_LogFile = ecd_logger.log
+
+# SSL
+EL_VerifySSL = 0
+
+# --------- GameCMS (MySQL) ---------
+GameCMS_Enable = 0
+GameCMS_DB_Host = IP
+GameCMS_DB_Port = 3306
+GameCMS_DB_User = USER
+GameCMS_DB_Pass = PASSWROD
+
+# Стандартная таблица ecd_logger
+GameCMS_DB_Name = ecd_logger
+
+# --------- Уведомления ---------
+# Telegram (если заполнены все 3 типа данных, уведомления начинают приходить)
+Telegram_Enable = 0
+Telegram_Token =
+Telegram_ChatID =
+
+# Использовать прокси? (0/1)
+Telegram_UseProxy = 0
+
+# Прокси (если Telegram заблокирован). Например: Telegram_Proxy = socks5://логин:пароль@адрес:порт
+Telegram_Proxy =
+
+# VK (если заполнены все 3 типа данных, уведомления начинают приходить)
+VK_Enable = 0
+VK_Token =
+VK_PeerID =
