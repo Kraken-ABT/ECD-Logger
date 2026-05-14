@@ -58,3 +58,13 @@ pip install -r requirements.txt   # если есть requirements.txt
 ```bash
 python app.py
 ```
+
+## 📄 Лицензия
+Данное программное обеспечение распространяется под лицензией **GNU General Public License v3.0**
+Подробнее см. в файле [LICENSE](https://github.com/ваш_username/ecd-logger/blob/main/LICENSE)
+
+## 📬 Поддержка
+По вопросам багов, предложений и помощи пишите в Issues данного репозитория.
+Автор не несёт ответственности за возможные блокировки IP со стороны fungun.net — используйте разумные интервалы запросов.
+
+<p align="center"> <sub>Written using Python by Kraken ABT</sub> </p>
